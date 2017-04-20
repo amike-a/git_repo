@@ -1,0 +1,20 @@
+body {
+	background-color: #f8f8f8;
+}
+
+.top-menu {
+	list-style-type: none;
+}
+
+.top-menu__item-link {
+	color: yellow;
+	background-color: grey;
+	font-style: italic;
+}
+
+.top-heading {
+	color: black;
+	font-size: 18px;
+	font-weight: 400;
+	background-color: #eaeaea;
+}
