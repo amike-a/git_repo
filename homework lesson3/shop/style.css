@@ -18,3 +18,41 @@ body {
 	font-weight: 400;
 	background-color: #eaeaea;
 }
+
+.top-heading__short {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+
+.top-heading__thorough {
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+
+.top-heading__character {
+	color: rgb(141,109, 126);
+	font-weight: bold;
+	font-family: "Comic Sans MS", serif;
+	list-style-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBE2H0yBjre0nL-rZvh2x6UH5iGlqK1oYxiOoi6LU6csVYUgSoqw");
+}
+
+.application__item-filling {
+	width: 200px;
+	height: 35px;
+}
+
+.application__item-filling_input {
+	color: purple;
+	font-weight: bold;
+}
+
+#ipadpropic {
+	border-width: 7px;
+	border-color: brown;
+	border-style: solid;	
+}

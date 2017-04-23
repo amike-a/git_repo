@@ -1,40 +1,42 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
 	<title>Магазин мобильной техники "Connected World"</title>
 </head>
 <body>
-	<ul>
-		<li><a href="index.html">Главная</a></li>
-		<li><a href="katalog.html">Каталог</a></li>
-		<li><a href="#">Контакты</a></li>
+	<ul class="top-menu">
+		<li class="top-menu__item"><a href="index.html" class="top-menu__item-link">Главная</a></li>
+		<li class="top-menu__item"><a href="katalog.html" class="top-menu__item-link">Каталог</a></li>
+		<li class="top-menu__item"><a href="#" class="top-menu__item-link">Контакты</a></li>
 	</ul>
 	<hr>
 	<h1>Напишите нам</h1>
-	<form action=" ">
-	<div>
+	<form action=" " class="application">
+	<div class="application__item">
 		<label for="name">Введите имя
-			<input type="text" id="name" placeholder="Имя">
+			<input type="text" id="name" placeholder="Имя" class="application__item-filling application__item-filling_input" value="Имя">
 		</label>
 	</div>
-	<div>
+	<div class="application__item">
 		<label for="email">Ваш email
-			<input type="email" id="email" placeholder="xxx@site.ru">
+			<input type="email" id="email" placeholder="xxx@site.ru" value="xxx@site.ru" class="application__item-filling application__item-filling_input">
 		</label>
 	</div>
-	<div>
-		<label for="topid">Введите тему Вашего сообщения
-			<input type="text" id="topic" placeholder="Тема обращения">
+	<div class="application__item">
+		<label for="topic">Введите тему Вашего сообщения
+			<input type="text" id="topic" placeholder="Тема обращения" value="Тема обращения" class="application__item-filling application__item-filling_input">
 		</label>
 	</div>
-	<div>
+	<div class="application__item">
 		<label for="theme">Ваше обращение
-			<textarea id="theme" placeholder="Текст обращения"></textarea>
+			<textarea id="theme" placeholder="Текст обращения" class="application__item-filling"></textarea>
 		</label>
 	</div>
 	<input type="submit" value="Отправить данные">
 	<input type="reset" value="Сбросить">
+	</form>
 	<br><br>
 	<p>
 	<h3>Адрес</h3>
