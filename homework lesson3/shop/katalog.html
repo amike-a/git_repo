@@ -6,18 +6,54 @@
 	<title>Каталог</title>
 </head>
 <body>
-	<ul class="top-menu">
-		<li class="top-menu__item"><a href="index.html" class="top-menu__item-link">Главная</a></li>
-		<li class="top-menu__item"><a href="katalog.html" class="top-menu__item-link">Каталог</a></li>
-		<li class="top-menu__item"><a href="contacts.html" class="top-menu__item-link">Контакты</a></li>
+	<div class="header">
+	<ul class="header__top">
+		<img src="images\logo.jpg" alt="" class = "header__logo">
+		<li class="header__item"><a href="index.html" class="header__item-link">Главная</a></li>
+		<li class="header__item"><a href="katalog.html" class="header__item-link">Каталог</a></li>
+		<li class="header__item"><a href="contacts.html" class="header__item-link">Контакты</a></li>
 	</ul>
 	<hr>
+	</div>
 	<h1>Каталог</h1>
-	<img src="images/ipadpro.png_256" alt="iPadPro"><br>
-	<a href="ipadpro.html">Узнать iPad Pro подробнее</a>
+	<table class="katalog">
+		<tr>
+			<td>
+				<img src="images/ipadpro.png_256" alt="iPadPro" class="katalog__images"><br>
+			</td>
+			<td>
+				<img src="images/iphone7.png" alt="iPad7" class="katalog__images"><br>
+			</td>
+			<td>
+				<img src="images/iphone7red.png" alt="iPad7red" class="katalog__images"><br>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="ipadpro.html" class="katalog__link">Узнать iPad Pro подробнее</a>
+			</td>
+			<td>
+				<a href="iphone7.html" class="katalog__link">Узнать iPhone 7 подробнее</a>
+			</td>
+			<td>
+				<a href="iphone7red.html" class="katalog__link">Узнать iPhone 7 (PRODUCT)RED™ подробнее</a>
+			</td>
+		</tr>
+		<!--<tr>
+			<td>
+				<img src="images/galaxys8.png" alt="Galaxy S8" class="katalog__images"><br>
+			</td>
+		</tr>
+		 <tr>
+			<td>
+				<a href="galaxys8.html">Узнать Galaxy S8 подробнее</a>
+			</td>-->
+	</table>
 	<br><br><br><br><br><br><br><br><br>
 
+	<div class="footer">
 	<hr>
 	<p>Все права защищены &copy;</p>
+	</div>
 </body>
 </html>
